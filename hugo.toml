@@ -6,3 +6,9 @@ publishDir = "docs"
 [params]
   [params.assets]
     enableInlineSRI = false
+    enableFingerprint = false
+    enableCDN = false
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
