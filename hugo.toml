@@ -1,0 +1,8 @@
+baseURL = 'https://francis329.github.io/'
+languageCode = 'zh-cn'
+title = 'Jun_blog'
+publishDir = "docs"
+
+[params]
+  [params.assets]
+    enableInlineSRI = false
